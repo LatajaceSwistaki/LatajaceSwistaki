@@ -2,7 +2,7 @@
 	--card-height: 40vw;
 	--card-margin: 4vw;
 	--card-top-offset: 1em;
-	--numcards: 4;
+	--numcards: 5;
 	--outline-width: 0px;
 }
 
@@ -102,7 +102,6 @@
 #debug:checked ~ main {
   --outline-width: 1px;
 }
-
 
 /** PAGE STYLING **/
 
