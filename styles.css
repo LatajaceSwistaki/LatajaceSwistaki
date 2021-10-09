@@ -4,7 +4,6 @@
 	--card-top-offset: 1em;
 	--numcards: 4;
 	--outline-width: 0px;
-    background: linear-gradient(#e66465, #9198e5);
 }
 
 #cards {
@@ -30,6 +29,10 @@
 
 #card_4 {
 	--index: 4;
+}
+
+#card_5 {
+	--index: 5;
 }
 
 .card {
@@ -110,10 +113,9 @@
 }
 
 body {
-	background: linear-gradient(#e66465, #9198e5);
+	background: linear-gradient(#e66465, #dbb5b5);
 	color: rgb(255, 255, 255);
 	text-align: center;
-
 	font-size: calc(1em + 0.5vw);
 }
 
