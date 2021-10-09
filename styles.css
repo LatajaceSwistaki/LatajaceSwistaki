@@ -4,11 +4,16 @@
 	--card-top-offset: 1em;
 	--numcards: 4;
 	--outline-width: 0px;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 #cards {
 	padding-bottom: calc(var(--numcards) * var(--card-top-offset)); /* Make place at bottom, as items will slide to that position*/
 	margin-bottom: var(--card-margin); /* Don't include the --card-margin in padding, as that will affect the scroll-timeline*/
+}
+
+#frontpage {
+    width: 80%;
 }
 
 #card_1 {
@@ -105,7 +110,7 @@
 }
 
 body {
-	background: rgb(58 29 43);
+	background: linear-gradient(#e66465, #9198e5);
 	color: rgb(255, 255, 255);
 	text-align: center;
 
