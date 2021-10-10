@@ -231,7 +231,6 @@ aside p {
     transform: scale(1.1);
 }
 
-<<<<<<< HEAD
 
 
 /* Buttons */
@@ -262,10 +261,10 @@ a.button1:hover{
 	margin:0.4em auto;
 	}
 } 
-=======
+
 .ball {
     position: relative;
     border-radius: 100%;
     opacity: 0.7;
   }
->>>>>>> 9aa0ec95af1143568239fb108f1860bd6b0d4227
+
