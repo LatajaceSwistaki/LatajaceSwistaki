@@ -4,8 +4,9 @@ div.logo-wrapper {
     -moz-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
-    height: 140px;
+    height: 120px;
     width: 132px;
+    margin-top: 20px;
 }
 
 div.logo-top {
