@@ -1,0 +1,72 @@
+div.logo-wrapper {
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    height: 140px;
+    width: 132px;
+}
+
+div.logo-top {
+    position: absolute;
+    background-color: #1D2F3F;
+    width: 40px;
+    height: 30px;
+    top: -18px;
+    right: 1;
+    left: 0;
+    margin: auto;
+    border-radius: 20px; 
+}
+
+div.logo-top::before
+{
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: -2px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 50% 0;
+    box-shadow: 0 10px 0 0 #1D2F3F;
+}
+
+div.logo-top::after
+{
+    content: "";
+    position: absolute;
+    right: -19px;
+    top: -2px;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 0 50%;
+    box-shadow: 0 10px 0 0 #1D2F3F;
+}
+
+div.logo-body {
+    position: relative;
+    background-color: #1D2F3F;
+    width: 132px;
+    height: 90px;
+    border-radius: 13px;
+}
+
+div.logo-lens {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 35px;
+    height: 35px;
+    background-color: #1D2F3F;
+    border-radius: 50%;
+    box-shadow: 0 0 0 15px white;
+}
+
+.center
+{
+    text-align: center;
+}
