@@ -85,24 +85,6 @@
 	}
 }
 
-/** DEBUG **/
-
-#debug {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-}
-#debug::after {
-  content: " Show Debug";
-  margin-left: 1.5em;
-  color: white;
-  white-space: nowrap;
-}
-
-#debug:checked ~ main {
-  --outline-width: 1px;
-}
-
 /** PAGE STYLING **/
 
 * { /* Poor Man's Reset */
@@ -112,7 +94,7 @@
 }
 
 body {
-	background: linear-gradient(#e66465, #dbb5b5);
+	background: #3a506b;
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: calc(1em + 0.5vw);
@@ -248,3 +230,9 @@ aside p {
 .hvr-grow:active {
     transform: scale(1.1);
 }
+
+.ball {
+    position: relative;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
