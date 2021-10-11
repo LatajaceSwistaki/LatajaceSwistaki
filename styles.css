@@ -1,7 +1,7 @@
 :root {
-	--card-height: 40vw;
-	--card-margin: 4vw;
-	--card-top-offset: 1em;
+	--card-height: 60vw;
+	--card-margin: 10vw;
+	--card-top-offset: 3em;
 	--numcards: 5;
 	--outline-width: 0px;
 }
@@ -12,7 +12,8 @@
 }
 
 #frontpage {
-    width: 80%;
+    width: 100%;
+    height: auto;
 }
 
 #card_1 {
@@ -39,6 +40,7 @@
 	position: sticky;
 	top: 0;
 	padding-top: calc(var(--index) * var(--card-top-offset));
+    height: auto;
 }
 
 @supports (animation-timeline: works) {
@@ -204,10 +206,7 @@ aside p {
     .card__content {
         display: flex;
         flex-direction: column;
-    }
-
-    :root {
-        --card-height: 90vw;
+        flex-wrap: wrap;
     }
 }
 
@@ -237,7 +236,7 @@ aside p {
 
 a.button1 {
 	display:inline;
-	padding:0.35em 1.2em;
+	padding:0.5em 1.2em;
 	border:0.1em solid #000000;
 	margin:0 0.3em 0.3em 0;
 	border-radius:0.12em;
@@ -257,8 +256,8 @@ a.button1:hover{
 
 @media all and (max-width:30em){
 	a.button1{
-	display:inline;
-	margin:0.4em auto;
+        display: inline;
+        margin: auto;
 	}
 } 
 
